@@ -20,5 +20,6 @@ end
 
 def iterate_through_keys
   upcase_cities=add_a_key_value_pair.map {|key,value| key.upcase}
+  upcase_cities
   
 end
