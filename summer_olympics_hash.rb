@@ -19,5 +19,6 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
-  upcase_cities=add_a_key_value_pair.map {|key,value|
+  upcase_cities=add_a_key_value_pair.map {|key,value|.upcase|
+  
 end
